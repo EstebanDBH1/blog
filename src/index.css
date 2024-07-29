@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Neue montreal";
+  src: url("/fonts/PPNeueMontreal-Medium.woff2");
+}
+
+html,
+body {
+  cursor: default;
+}
+
+body {
+  font-family: "Neue montreal", Arial, Helvetica, sans-serif;
+}
